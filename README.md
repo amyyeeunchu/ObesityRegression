@@ -13,5 +13,7 @@ Yes, you should include a README file on GitHub. It helps organize your project,
 	•	Results: Summarize findings and provide visuals if available (accuracy plots, etc.).
 	•	Future Work: Mention any limitations and potential improvements.
 
-Project title: "
+Project title: "Comparation of different approaches for obesity classification problem"
+Since the problem is somehow intuitively understandable and doesn't require a lot of brain power, in case not to look retarded, we need to make it look fancy by adding some spice: solving the problem implementing different models and then comparing their performance.
+
 
