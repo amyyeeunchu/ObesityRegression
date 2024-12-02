@@ -20,7 +20,7 @@ Since the problem is somehow intuitively understandable and doesn't require a lo
 We want to implement a few models (regression, classification (SVM), GMM (probabilistic), Random Forrest, Decision Tree) based on different approaches and evaluate their performance (pros and cons, where the models struggle, how much time it takes, etc.)
 
 ***How can we put some Maths into this?***
-1) We need to check if the data is linearly separable (there are a lot of methods for that, but we use the most retarded and Maths-related one). So we check the **rank of the matrix** and if it's smaller than k+1, than we are screwed and the data can not be linearly separated that well.
+1) We need to check if the data is linearly separable (there are a lot of methods for that, but we use the most retarded and Maths-related one). So we check the **rank of the matrix** and if it's smaller than k+1 (where k is the number of features), then we are screwed and the data can not be linearly separated that well.
 2) **Regularization**
 To make models behave themselves, we would apply the regularization, using sklearn Ridge regression (and its classification alternative)
 3) **Hyperparameters tunning**
@@ -32,7 +32,7 @@ To get rid of not important features and reduce the dimensionality of the data.
 To calculate the derivatives and compute the loss and update the weights for regression.
 No one will take the model seriously if we use the training set as a validation one.
 8) **Responsibilities**
-We will have to implement the GMM iteratively, untill the model is well adjusted to the dataset. Will have to update mean, weights and covariance matrix all the time.
+We will have to implement the EM iteratively, untill the model is well adjusted to the dataset. Will have to update mean, weights and covariance matrix all the time.
 9) **Kernel trick for SVM** or just Lagrangian in best case
 Kernel shit and linearly inseparable data suck a lot, so we would want to avoid that. But in case we do a SVM for classification, we have to implement Lagrangian as a solution for constrined optimization problem.
 10) **Actually, can be a lot more**
