@@ -20,7 +20,7 @@ Since the problem is somehow intuitively understandable and doesn't require a lo
 We want to implement a few models (regression, classification (SVM), GMM (probabilistic), Random Forrest, Decision Tree) based on different approaches and evaluate their performance (pros and cons, where the models struggle, how much time it takes, etc.)
 
 ***How can we put some Maths into this?***
-1) We need to check if the data is linearly separable (there are a lot of methods for that, but we use the most retarded and Maths-related one). So we check the **rank of the matrix** and if it's smaller than k+1 (where k is the number of features), then we are screwed and the data can not be linearly separated that well.
+1) We need to check if the data is linearly separable (there are a lot of methods for that, but we use the most retarded and Maths-related one). So we check the **rank of the matrix** and if it's smaller than k (where k is the number of features), then we are screwed and the data is slightly shitty since some features are redundant. (Please forget about linear separation of data, I was delusional)
 2) **Regularization**
 To make models behave themselves, we would apply the regularization, using sklearn Ridge regression (and its classification alternative)
 3) **Hyperparameters tunning**
