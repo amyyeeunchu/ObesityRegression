@@ -3,7 +3,7 @@ The dataset includes people only from18 to 54 years old, we should include it as
 ## 2nd meeting: 12/11
 
 ChatGPT question and response:
-We have a machine learning project. Starting from a data set containing some input features we should output the obesity level ofa person. We downloaded the datasaet and cleaned it successfully. Now We are in a meeting and we do not know how to start. Can you give us instructions or guidelines to do. We ara 4 people working on it. How should we divide our work for the next milestone. We thought, depending on the feature of implementing Lasso regression, softmax. We will also implement a validation set and PCA
+We have a machine learning project. Starting from a data set containing some input features we should output the obesity level of a person. We downloaded the dataset and cleaned it successfully. Now we are in a meeting and we do not know how to start. Can you give us instructions or guidelines to do. We are 4 people working on it. How should we divide our work for the next milestone. We thought, depending on the feature of implementing Lasso regression, softmax. We will also implement a validation set and PCA
 ChatGPT said:
 
 It's great that you've got your dataset cleaned and have a clear goal to predict obesity levels! Here’s a step-by-step guide to help you get organized and assign tasks among the team members.
@@ -11,7 +11,8 @@ It's great that you've got your dataset cleaned and have a clear goal to predict
 1. Define the Project Steps and Divide Tasks
    To achieve the next milestone, let’s break down the tasks into manageable steps and assign roles based on each person's expertise and interest. Here’s a potential plan:
 
-###Nacho:
+### Nacho:
+
 Step 1: Exploratory Data Analysis (EDA)
 Goal: Understand the dataset’s structure, examine feature distributions, and identify relationships with the target variable (obesity level).
 
